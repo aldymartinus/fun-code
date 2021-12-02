@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/file-cabinet_1f5c4-fe0f.png" type="image/x-icon">
+    <title>Hashing</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="main-container">
+            <div class="header">
+                <h3>Mid Square & Double Hashing</h3>
+            </div>
+            <form class="input-container">
+                <input type="text" placeholder="Input a Key" id="key-input" required>
+                <input type="text" placeholder="Input table size" id="array-length" required>
+                <input type="text" placeholder="Input prime number" id="prime-number" required>
+                <button type="submit" id="btn-input">Input</button>
+            </form>
+            <div class="output-container">
+                <div class="data-output">
+                    <div class="value-container-parent">
+                        <h3>Key</h3>
+                            <div id="key-container" class="value-container">
+
+                            </div>
+                    </div>
+                    <div class="value-container-parent">
+                        <h3>Squared Key</h3>
+                            <div id="squared-container" class="value-container">
+
+                            </div>
+                    </div>
+                    <div class="value-container-parent">
+                        <h3>Median</h3>
+                        <div id="median-container" class="value-container">
+
+                        </div>
+                    </div>
+                    <div class="value-container-parent">
+                        <h3>Relative Address</h3>
+                        <div id="address-container" class="value-container">
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="log" id="log">
+                    <table id="table-view" >
+                        <tr id="addr">
+
+                        </tr>
+                        <tr id="value">
+                            
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
