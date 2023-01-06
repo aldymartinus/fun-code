@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Noto Serif JP Extra Light';
+  src: url(./font/NotoSerifJP-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP Light';
+  src: url(./font/NotoSerifJP-Light.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url(./font/NotoSerifJP-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP Medium';
+  src: url(./font/NotoSerifJP-Medium.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP Semi Bold';
+  src: url(./font/NotoSerifJP-SemiBold.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP Bold';
+  src: url(./font/NotoSerifJP-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Noto Serif JP Black';
+  src: url(./font/NotoSerifJP-Black.otf);
+}
+
+body {
+  margin:1%;
+  color: #333;
+  font-family: 'Noto Serif JP';
+}
+
+#header {
+  padding: 0 2rem;
+  font-family: 'Noto Serif JP';
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color: #4165ba;
+  height: 8vh;
+}
+
+.button {
+  margin: 0 0 0 2%;
+  padding: 8px 0;
+  width: 8%;
+  background-color: rgb(65, 101, 186);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+.button:hover {
+  background-color: #6c8cd8;
+}
+
+#day-percentage {
+  background-color: #6c8cd8;
+}
